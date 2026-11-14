@@ -11,9 +11,9 @@ The goal of this project is to automate AWS infrastructure deployment using Terr
 
 ## The project provisions the following AWS resources:
 
-Amazon EC2: Virtual server to host a web application.
-Security Group: Controls inbound and outbound network traffic.
-Terraform: Automates infrastructure provisioning.
+- Amazon EC2: Virtual server to host a web application.  
+- Security Group: Controls inbound and outbound network traffic.   
+- Terraform: Automates infrastructure provisioning.  
 
 ## Technologies used:
 
