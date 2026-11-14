@@ -23,8 +23,9 @@ Git
 GitHub
 Visual Studio Code
 
-## Project Structure:
+## Project Structure
 
+```text
 terraform-aws-ec2-web/
 │
 ├── main.tf
@@ -32,6 +33,7 @@ terraform-aws-ec2-web/
 ├── .terraform.lock.hcl
 ├── .gitignore
 └── README.md
+```
 
 ## Prerequisites:
 
