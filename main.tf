@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 data "aws_vpc" "existing" {
-  id = "vpc-08e79e1b1e26f2122"
+  default = true
 }
 
 data "aws_subnets" "public" {
