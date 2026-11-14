@@ -77,6 +77,6 @@ terraform-aws-ec2-web/
 
 - Created a security group to manage inbound and outbound rules.
 
-- *Infrastructure should be deployed only when needed to avoid unnecessary AWS costs, in this case, I stopped the instance to avoid unexpected costs and security threats. Considering I published the ports.*
+- **Infrastructure should be deployed only when needed to avoid unnecessary AWS costs, in this case, I stopped the instance to avoid unexpected costs and security threats. Considering I published the ports.**
 
 
