@@ -1,5 +1,5 @@
-## Terraform AWS EC2 Web Server
-# Project Overview
+# Terraform AWS EC2 Web Server
+## Project Overview
 
 This project demonstrates how to provision an AWS EC2 instance using Terraform.
 
@@ -7,15 +7,15 @@ The infrastructure includes an EC2 instance and a Security Group to control inbo
 
 The goal of this project is to automate AWS infrastructure deployment using Terraform and follow IaC best practices.
 
-Architecture
+# Architecture:
 
-The project provisions the following AWS resources:
+## The project provisions the following AWS resources:
 
 Amazon EC2: Virtual server to host a web application.
 Security Group: Controls inbound and outbound network traffic.
 Terraform: Automates infrastructure provisioning.
 
-Technologies used:
+## Technologies used:
 
 AWS
 Terraform
@@ -23,7 +23,7 @@ Git
 GitHub
 Visual Studio Code
 
-Project Structure:
+## Project Structure:
 
 terraform-aws-ec2-web/
 │
@@ -33,14 +33,14 @@ terraform-aws-ec2-web/
 ├── .gitignore
 └── README.md
 
-Prerequisites:
+# Prerequisites:
 
 An AWS account.
 AWS CLI installed and configured.
 Terraform installed.
 Git installed.
 
-Deployment:
+# Deployment:
 1. Created ec2.tf and main.tf files
 
 2. Initialize Terraform:
@@ -64,13 +64,13 @@ Typed "yes" to confirm deployment.
 
 Destroy Infrastructure
 
-To remove the AWS resources created by Terraform:
+## To remove the AWS resources created by Terraform:
 
 terraform destroy
 
 confirm the operation when prompted.
 
-Security Considerations:
+## Security Considerations:
 
 Terraform state files are excluded from Git using .gitignore.
 
