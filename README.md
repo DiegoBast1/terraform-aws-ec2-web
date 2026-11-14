@@ -47,37 +47,36 @@ terraform-aws-ec2-web/
 
 2. Initialize Terraform:
 
-terraform init
+   - terraform init
 
 4. Validate the configuration:
 
-terraform validate
+   - terraform validate
 
 5. Review the execution plan:
 
-terraform plan
+   - terraform plan
 
 6. Deploy the infrastructure:
 
-terraform apply
+   - terraform apply
 
+7. Typed "yes" to confirm deployment.
 
-Typed "yes" to confirm deployment.
-
-Destroy Infrastructure
+   - Destroy Infrastructure
 
 ## To remove the AWS resources created by Terraform:
 
-terraform destroy
+- terraform destroy  
 
-confirm the operation when prompted.
+- confirm the operation when prompted.  
 
 ## Security Considerations:
 
-Terraform state files are excluded from Git using .gitignore.
+- Terraform state files are excluded from Git using .gitignore.
 
-Created a security group to manage inbound and outbound rules.
+- Created a security group to manage inbound and outbound rules.
 
-Infrastructure should be deployed only when needed to avoid unnecessary AWS costs, in this case, I stopped the instance to avoid unexpected costs.
+- Infrastructure should be deployed only when needed to avoid unnecessary AWS costs, in this case, I stopped the instance to avoid unexpected costs.
 
 
