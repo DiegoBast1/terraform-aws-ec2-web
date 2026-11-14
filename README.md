@@ -17,11 +17,11 @@ The goal of this project is to automate AWS infrastructure deployment using Terr
 
 ## Technologies used:
 
-AWS
-Terraform
-Git
-GitHub
-Visual Studio Code
+- AWS    
+- Terraform     
+- Git        
+- GitHub    
+- Visual Studio Code
 
 ## Project Structure
 
