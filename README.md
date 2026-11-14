@@ -33,7 +33,7 @@ terraform-aws-ec2-web/
 ├── .gitignore
 └── README.md
 
-# Prerequisites:
+## Prerequisites:
 
 An AWS account.
 AWS CLI installed and configured.
