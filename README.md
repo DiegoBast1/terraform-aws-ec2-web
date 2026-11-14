@@ -37,10 +37,10 @@ terraform-aws-ec2-web/
 
 ## Prerequisites:
 
-An AWS account.
-AWS CLI installed and configured.
-Terraform installed.
-Git installed.
+- An AWS account  
+- AWS CLI installed and configured    
+- Terraform installed   
+- Git installed   
 
 # Deployment:
 1. Created ec2.tf and main.tf files
