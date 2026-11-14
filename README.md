@@ -1,4 +1,4 @@
-Terraform AWS EC2 Web Server
+## Terraform AWS EC2 Web Server
 Project Overview
 
 This project demonstrates how to provision an AWS EC2 instance using Terraform.
