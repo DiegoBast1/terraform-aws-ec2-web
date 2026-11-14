@@ -2,7 +2,7 @@
 resource "aws_security_group" "ec2_sg" {
   name        = "ec2-security-group"
   description = "HTTPS & HTTP"
-  vpc_id      = "vpc-08e79e1b1e26f2122"
+  vpc_id      = data.aws_vpc.default.id
 
   ingress {
     description      = "HTTPS"
